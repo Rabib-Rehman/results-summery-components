@@ -10,7 +10,7 @@
 yarn.debug.log*
 yarn.error.log*
 npm-debug.log*
-
+reference-index.html
 # Environment and secrets
 .env
 .env.local
