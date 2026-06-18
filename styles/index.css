@@ -1,0 +1,62 @@
+:root {
+  /* Primary */
+  --light-red: hsl(0, 100%, 67%);
+  --Orangey-yellow: hsl(39, 100%, 56%);
+  --Green-teal: hsl(166, 100%, 37%);
+  --Cobalt-blue: hsl(234, 85%, 45%);
+
+  /* Gradiant */
+  --Light-slate-blue: hsl(252, 100%, 67%);
+  --Light-royal-blue: hsl(241, 81%, 54%);
+  --Violet-blue: hsla(256, 72%, 46%, 1);
+  --Persian-blue: hsla(241, 72%, 46%, 0);
+
+  /* Neutral */
+  --White: hsl(0, 0%, 100%);
+   --Pale-blue: hsl(221, 100%, 96%);
+    --Light-lavender: hsl(241, 100%, 89%);
+     --Dark-gray-blue: hsl(224, 30%, 27%);
+}
+
+body{
+  background-color: var(--Pale-blue);
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+
+}
+
+.main{
+  background-color: var(--White);
+  border-radius: 1.5rem;
+  display: flex;
+  max-width: 540px;
+
+}
+
+.card{
+  width: 50%;
+  padding: 2rem;
+}
+
+.card1 {
+  background-color: var(--Light-slate-blue);
+  color: var(--White);
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+
+}
+
+.score{
+  background-color: var(--Violet-blue);
+  width:150px ;
+  height: 150px ;
+  border-radius:50% ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
