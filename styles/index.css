@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'My font';
+  src: url(../assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+  font-weight:500,700,800;
+  font-style: normal;
+}
 :root {
   /* Primary */
   --light-red-bg: hsla(0, 100%, 67%, 3%);
@@ -6,8 +12,8 @@
   --Cobalt-blue: hsla(234, 85%, 45%,3%);
 
   /* Gradiant */
-  --Light-slate-blue: hsl(252, 100%, 67%);
-  --Light-royal-blue: hsl(241, 81%, 54%);
+  --Light-slate-blue: hsla(252, 100%, 67%);
+  --Light-royal-blue: hsla(241, 81%, 54%);
   --Violet-blue: hsla(256, 72%, 46%, 1);
   --Persian-blue: hsla(241, 72%, 46%, 0);
 
@@ -32,7 +38,14 @@ body{
   border-radius: 1.5rem;
   display: flex;
   max-width: 540px;
+  font-family: 'My font',sans-serif;
 
+
+
+}
+
+*{
+  box-sizing: border-box;
 }
 
 .card{
@@ -40,37 +53,69 @@ body{
   padding: 2rem;
 }
 
+
+
 .card1 {
-  background-color: var(--Light-slate-blue);
+  background-image: linear-gradient(to top, var(--Light-royal-blue), var(--Light-slate-blue));
   color: var(--White);
   border-radius: 1.5rem;
   display: flex;
   flex-direction:column;
   align-items: center;
-
+  padding: 2.5rem;
 }
 
-.score{
+
+.score {
   background-color: var(--Violet-blue);
-  width:150px ;
-  height: 150px ;
-  border-radius:50% ;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.card2{
-
+.line{
+  margin:0;
 }
+.sc{
+  font-size: 50px;
+}
+.of{
+  font-size: 15px;
+  font-weight: 500;
+  color:hsla(0, 0%, 100%,40%) ;
+}
+.result{
+  font-size: 18px;
+  font-weight: 700;
+  color: hsla(0, 0%, 100%, 70%);
+  margin-bottom: 1.5rem;
+}
+.lower{
+  font-size: 13px;
+    font-weight: 700;
+    color: hsla(0, 0%, 100%, 70%);
+
+    text-align: center;
+}
+.Great{
+  font-size: 25px;
+  margin-bottom: 0;
+  margin-top: 0.5;
+}
+
+
 
 .tab{
   border-radius: .5rem;
+  font-size: 13px;
   display: flex;
   justify-content: space-between;
   margin-bottom: .8rem;
-  padding: .8rem;
+  padding: .7rem;
   align-items: center;
 }
 
