@@ -55,6 +55,9 @@ body{
 
 
 
+
+
+
 .card1 {
   background-image: linear-gradient(to top, var(--Light-royal-blue), var(--Light-slate-blue));
   color: var(--White);
@@ -64,7 +67,6 @@ body{
   align-items: center;
   padding: 2.5rem;
 }
-
 
 .score {
   background-color: var(--Violet-blue);
@@ -109,6 +111,9 @@ body{
 
 
 
+
+
+
 .tab{
   border-radius: .5rem;
   font-size: 13px;
@@ -134,11 +139,37 @@ body{
 
 .left span{
   margin: .1rem;
+
 }
 
-.left img{
-  margin-top: rem;
+.right span{
+  font-size: 13px;
+    font-weight: 500;
+    color: hsla(0, 7%, 14%, .4);
 }
+.right b{
+  font-weight: 700;
+  color: hsla(0, 7%, 14%, 70%);
+}
+
+.r{
+  font-weight:450;
+  color: hsla(0, 100%, 67%, 80%);
+}
+.m{
+  font-weight: 450;
+  color:hsla(39, 100%, 56%, 80%) ;
+}
+.v{
+  font-weight: 450;
+  color: hsla(166, 100%, 37%, 80%);
+}
+.vi{
+  font-weight: 450;
+  color:hsla(234, 85%, 45%, 80%) ;
+}
+
+
 
 .button{
   background-color: var(--Dark-gray-blue);
@@ -148,4 +179,8 @@ body{
   border-radius: 50px;
   margin-top: 2rem;
   padding: .7rem;
+}
+
+.card2 h3{
+
 }
