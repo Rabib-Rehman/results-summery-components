@@ -190,3 +190,35 @@ body{
 }
 
 
+@media screen and (max-width: 560px ) and (min-width:227px){
+  .body{
+    background: none !important;
+    background-color:#ffffff;
+
+    margin:0;
+    padding: 0;
+
+   
+
+
+  }
+
+  .main{
+    width: 100%;
+    min-height: 100vh;
+
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .card{
+    width:100%;
+  }
+
+}
+
+
